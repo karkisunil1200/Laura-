@@ -1,0 +1,300 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+#home {
+    background: url("../images/first.jpeg") ;
+    background-size: cover;
+}
+.home {
+    background: rgba(0, 0, 0, 0.6);
+    height: 800px;
+}
+.container {
+    margin: auto;
+    width: 1170px;
+}
+header {
+    padding: 30px;
+
+}
+.logo {
+    float: left;
+    font-size: 40px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    padding-top: 20px;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+}
+.active a {
+    color: orange;
+}
+.body p {
+    margin: 90px 30px ;
+    font-family: 'Questrial', sans-serif; 
+    font-size: 40px;
+    color: white;  
+    line-height: 66px;
+    border-left: 3px solid red;
+    padding-left: 30px;
+    
+}
+.body span {
+    font-family: 'Satisfy', cursive;
+}
+.circle {
+    height: 40px;
+    width: 40px;
+    margin: 50px auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-left: 13px;
+    padding-top: 7px;
+    font-size: 23px;
+    color: white;
+    padding-top: 30px;
+
+
+}
+
+
+#content {
+    background: url("https://bootstrapmade.com/demo/themes/Laura/img/about-banner.jpg")no-repeat;
+    min-height: 500px;
+    background-size: cover;
+}
+.content {
+    padding: 40px;
+    overflow:hidden;
+
+
+}
+.content-left {
+    width: 50%;
+    padding-left: 390px;
+    padding-top: 80px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+.content-left p {
+    text-align: right;
+    border-right: 3px solid red;
+    padding-right: 20px;
+}
+.content-left span {
+    font-family: 'Satisfy', cursive;
+}
+.content-right {
+    width: 50%;
+    float: right;
+    padding: 50px 40px;
+    font-family:'Roboto';
+    font-size: 16px;
+    overflow: hidden;
+}
+.content-right p {
+    color: #444;
+
+    
+}
+.indent {
+    padding:40px 30px;
+    font-size: 18px;
+    line-height: 44px;
+    color: #333;
+    overflow: hidden;
+}
+#features {
+    background: #f0f1e9;
+    background-size: cover;
+    margin: -11px;
+    height: 2100px;
+    
+
+}
+
+.pic img {
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.pic h2 {
+    text-align: center;
+    padding-top: 90px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-bottom: 100px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic span {
+    font-family: "Satisfy";
+}
+.first {
+    float: left;
+    width: 33%;
+}
+.second {
+    float: left;
+    width: 33%;
+}
+.third {
+    float: left;
+    width: 33%;
+}
+#response {
+    height: 500px;
+    background: #ffffff;
+    background-size: cover;
+}
+.resp {
+    padding-top: 100px;
+}
+.resp h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Roboto";
+    color: #333;
+    text-transform: capitalize;
+}
+.resp span {
+    font-family: 'Satisfy', cursive;
+}
+.info {
+    padding-top: 60px;
+    font-size: 18px;
+    color: #333;
+    font-family: "Roboto";
+}
+.one {
+    float: left;
+    background: #eeeeee;
+    width: 30%;
+    padding: 20px;
+    border-left: 4px solid #c5c7ce;
+    position: relative;
+    margin-right: 30px;
+
+}
+.one:after {
+    content: "";
+    background:#eee;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: -10px; 
+    left: 40px;
+    
+}
+.name {
+    float: left;
+    font-family: "Roboto";
+    margin-top: 30px;
+    line-height: 33px;
+    width: 33%;
+}
+.name p {
+    color: #333;
+}
+#hire {
+    background: #232222;
+
+    width: 100%;
+}
+.job{
+    font-family: "Roboto";
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+}
+.job h2 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.job span {
+    font-family: "Satisfy", cursive;
+}
+.job p {
+    font-size: 22px;
+    color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.personal {
+    width: 700px;
+    height: 50px;
+    margin: 20px 40px;
+    font-family: "Roboto";
+    font-size: 22px;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.msg {
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+
+    font-size: 22px;
+    padding: 10px;
+    height: 130px;
+    width: 700px;
+}
+.submit {
+    font-size: 22px;
+    background: firebrick;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: firebrick;
+}
+footer {
+    background: linen;
+    height: 130px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    font-size: 22px;
+    color:#333;
+    font-family: "Roboto";
+    line-height: 33px;
+}
+footer span {
+    color: darkorange;
+}
+
+
+
